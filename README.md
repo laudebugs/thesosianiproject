@@ -12,7 +12,7 @@ A static website to tell the story from conception to end. It took the form of a
 ## Stack
 
 - Node.js
-- Experess
+- Express
 - HTML + CSS
 
 ## TODO
