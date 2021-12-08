@@ -8,7 +8,7 @@ app.use(express.static(publicPath));
 
 app.set('view engine', 'hbs');
 
-app.get('/', function (req, res){
+app.get('*', function (req, res){
     res.render('home.hbs')
 })
 const port = process.env.PORT || 4000
