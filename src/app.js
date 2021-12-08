@@ -11,5 +11,6 @@ app.set('view engine', 'hbs');
 app.get('/', function (req, res){
     res.render('home.hbs')
 })
-
-app.listen(4000);
+const port = process.env.PORT || 4000
+console.log(`running on port ${port}`)
+app.listen(port);
